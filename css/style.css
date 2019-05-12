@@ -8,11 +8,15 @@ body {
 
 header, nav, section, aside, footer {
     background: #ebebeb;
+    padding: 40px;
+    text-align: center;
+    margin: 10px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
+    padding: 40px;
 }
 
 h1, h2, h3, p, .heads {
@@ -20,11 +24,30 @@ h1, h2, h3, p, .heads {
     background: #ebebeb;
 }
 
+h1, h2, h3 {
+    display: inline;
+    font-size: 1.17em;
+}
+
 section {
     width: 495px;
     float: left;
+    margin: 10px;
+}
+
+aside {
+    float: right;
+    margin: 10px;
+    width: 265px;
 }
 
 footer {
     clear: both;
+}
+
+.container {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    width: 960px;;
 }
